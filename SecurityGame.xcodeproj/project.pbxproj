@@ -21,6 +21,7 @@
 		AC71828419F5F30D001EFA4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC71826619F5F30D001EFA4B /* UIKit.framework */; };
 		AC71828C19F5F30D001EFA4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC71828A19F5F30D001EFA4B /* InfoPlist.strings */; };
 		AC71828E19F5F30D001EFA4B /* SecurityGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC71828D19F5F30D001EFA4B /* SecurityGameTests.m */; };
+		AC71829919F5FDE7001EFA4B /* BGKVLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC71829819F5FDE7001EFA4B /* BGKVLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AC71828919F5F30D001EFA4B /* SecurityGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecurityGameTests-Info.plist"; sourceTree = "<group>"; };
 		AC71828B19F5F30D001EFA4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC71828D19F5F30D001EFA4B /* SecurityGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityGameTests.m; sourceTree = "<group>"; };
+		AC71829719F5FDE7001EFA4B /* BGKVLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGKVLevelViewController.h; sourceTree = "<group>"; };
+		AC71829819F5FDE7001EFA4B /* BGKVLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGKVLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				AC71827119F5F30D001EFA4B /* BGKVAppDelegate.h */,
 				AC71827219F5F30D001EFA4B /* BGKVAppDelegate.m */,
 				AC71827419F5F30D001EFA4B /* Main.storyboard */,
+				AC71829719F5FDE7001EFA4B /* BGKVLevelViewController.h */,
+				AC71829819F5FDE7001EFA4B /* BGKVLevelViewController.m */,
 				AC71827719F5F30D001EFA4B /* BGKVViewController.h */,
 				AC71827819F5F30D001EFA4B /* BGKVViewController.m */,
 				AC71827A19F5F30D001EFA4B /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC71827319F5F30D001EFA4B /* BGKVAppDelegate.m in Sources */,
+				AC71829919F5FDE7001EFA4B /* BGKVLevelViewController.m in Sources */,
 				AC71826F19F5F30D001EFA4B /* main.m in Sources */,
 				AC71827919F5F30D001EFA4B /* BGKVViewController.m in Sources */,
 			);

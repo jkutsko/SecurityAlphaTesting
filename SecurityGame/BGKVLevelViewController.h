@@ -1,5 +1,5 @@
 //
-//  BGKVViewController.h
+//  BGKVLevelViewController.h
 //  SecurityGame
 //
 //  Created by Guest User on 10/20/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BGKVViewController : UIViewController
+@interface BGKVLevelViewController : UIViewController
 
-- (IBAction) goToMainMenu:(UIStoryboardSegue *)segue;
+- (IBAction) goToPreviousScene:(UIStoryboardSegue *)segue;
 
 @end
