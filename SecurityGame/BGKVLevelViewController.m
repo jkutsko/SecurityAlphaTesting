@@ -14,6 +14,10 @@
 
 @implementation BGKVLevelViewController
 
+- (BOOL) hidesBottomBarWhenPushed {
+    return YES;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
